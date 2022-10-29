@@ -1,4 +1,5 @@
 import streamlit as sl
+import pandas as pd
 
 sl.title('Breakfast Favorites')
 sl.header('Breakfast Menu')
@@ -10,3 +11,5 @@ sl.text('🥑🍞Avokado toast')
 
 sl.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
+my_fruit_list=pd.read_csv('https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt')
+sl.dataframe(my_fruit_list)
