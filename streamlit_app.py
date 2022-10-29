@@ -1,6 +1,6 @@
-import streamlit
+import streamlit as sl
 
-streamlit.title('My parents New Happy Diner')
+sl.title('My parents New Happy Diner')
 sl.header('Breakfast Menu')
 sl.text('Omega 3 & Blubery Oatmeal')
 sl.text('Kale, Spinach & Rocket Smoothie')
