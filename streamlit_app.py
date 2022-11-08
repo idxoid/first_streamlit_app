@@ -1,4 +1,5 @@
 import streamlit as sl
+import pandas as pd
 
 sl.title('Breakfast Favorites')
 sl.header('Breakfast Menu')
